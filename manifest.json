@@ -4,8 +4,8 @@
       {
         "artifacts": {
           "amd64": {
-            "sha256": "63f0785b86df16b46ed1056d0b4d4db0bc65519494fa4ef78f22943084c2c844",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.2-beta1/muminos-mumin-os-apps_0.1.2~beta1_all.deb"
+            "sha256": "b2c5b5899d6e1cbba45bb732d281c1d93b434c77443dab599bfff14672caf3a1",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.2-beta1/muminos-mumin-os-apps_0.1.2.beta1_all.deb"
           }
         },
         "category": "System",
@@ -19,8 +19,8 @@
       {
         "artifacts": {
           "amd64": {
-            "sha256": "c6b8c0a0b3a0c139574af5ea780424b71bfd33c273815067922f4f0f6323a0ac",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.2-beta1/muminos-mumincode-app-maker_0.1.2~beta1_all.deb"
+            "sha256": "d1f74be421027a8e522770fef77899d9fb6f9a368cbed395a687b8d4af8c35cf",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.2-beta1/muminos-mumincode-app-maker_0.1.2.beta1_all.deb"
           }
         },
         "category": "Development",
