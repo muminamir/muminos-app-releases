@@ -1,12 +1,11 @@
 {
   "channels": {
-    "beta": [],
-    "stable": [
+    "beta": [
       {
         "artifacts": {
           "amd64": {
-            "sha256": "4ded179d3ee5786bf8a2073712e5edbd81371076724464b308b8e730edacbcb0",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.0/muminos-mumin-os-apps_0.1.0_all.deb"
+            "sha256": "63f0785b86df16b46ed1056d0b4d4db0bc65519494fa4ef78f22943084c2c844",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.2-beta1/muminos-mumin-os-apps_0.1.2~beta1_all.deb"
           }
         },
         "category": "System",
@@ -15,13 +14,13 @@
         "name": "Mumin OS Apps",
         "package": "muminos-mumin-os-apps",
         "probe": "/usr/local/bin/mumin-store",
-        "version": "0.1.0"
+        "version": "0.1.2~beta1"
       },
       {
         "artifacts": {
           "amd64": {
-            "sha256": "8d656128266e9f1227cd4630c96d5461f4dae9157580f496380301a36b1596ad",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.0/muminos-mumincode-app-maker_0.1.0_all.deb"
+            "sha256": "c6b8c0a0b3a0c139574af5ea780424b71bfd33c273815067922f4f0f6323a0ac",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.2-beta1/muminos-mumincode-app-maker_0.1.2~beta1_all.deb"
           }
         },
         "category": "Development",
@@ -30,7 +29,39 @@
         "name": "MuminCode App Maker",
         "package": "muminos-mumincode-app-maker",
         "probe": "/usr/local/bin/mumin-app-maker",
-        "version": "0.1.0"
+        "version": "0.1.2~beta1"
+      }
+    ],
+    "stable": [
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "3ecdbcececff8eef5930f43de4393df6c0d7d50e5deb105e39d625903475a853",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.1/muminos-mumin-os-apps_0.1.1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-os-apps",
+        "installed_by_default": true,
+        "name": "Mumin OS Apps",
+        "package": "muminos-mumin-os-apps",
+        "probe": "/usr/local/bin/mumin-store",
+        "version": "0.1.1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "72389e1094604dc7b78a0344d570286b4565d719bd48a36396c082e5c6840159",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.1/muminos-mumincode-app-maker_0.1.1_all.deb"
+          }
+        },
+        "category": "Development",
+        "id": "mumincode-app-maker",
+        "installed_by_default": false,
+        "name": "MuminCode App Maker",
+        "package": "muminos-mumincode-app-maker",
+        "probe": "/usr/local/bin/mumin-app-maker",
+        "version": "0.1.1"
       }
     ]
   },
