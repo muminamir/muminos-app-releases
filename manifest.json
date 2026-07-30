@@ -4,23 +4,278 @@
       {
         "artifacts": {
           "amd64": {
-            "sha256": "c2990e71344af31a4d699ec19f14aaa1526e2a1aa79619a093c494d48d6903b0",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.3-beta1/muminos-mumin-os-apps_0.1.3.beta1_all.deb"
+            "sha256": "37c030e115e9a6d5a7e33193c7686b879378dc90e7326133a03ec22db7d72aa8",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-platform_0.3.0.beta1_all.deb"
           }
         },
         "category": "System",
-        "id": "mumin-os-apps",
+        "id": "mumin-os-platform",
         "installed_by_default": true,
-        "name": "Mumin OS Apps",
-        "package": "muminos-mumin-os-apps",
-        "probe": "/usr/local/bin/mumin-store",
-        "version": "0.1.3~beta1"
+        "name": "Mumin OS Platform",
+        "package": "muminos-platform",
+        "probe": "/usr/local/lib/muminos",
+        "version": "0.3.0~beta1"
       },
       {
         "artifacts": {
           "amd64": {
-            "sha256": "941adba7f6f0d5eaf4fc93fb109dbe27154d98fbd0735ba4ff712dcccb5634af",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.3-beta1/muminos-mumincode-app-maker_0.1.3.beta1_all.deb"
+            "sha256": "540c3a0fa992856a81b20f0750c85bb60b83771be304f76815b8e1a0a417bbc4",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-about_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-about",
+        "installed_by_default": true,
+        "name": "About Mumin OS",
+        "package": "muminos-mumin-about",
+        "probe": "/usr/local/bin/mumin-about",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "7f1899042e3e0ec5ffce4c9f1ad6e3a07da3782fb134e088457b671b5ef2dd78",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-store_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-store",
+        "installed_by_default": true,
+        "name": "App Center",
+        "package": "muminos-mumin-store",
+        "probe": "/usr/local/bin/mumin-store",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "a3de6a3c3575a2631edbcc505624552a072302b00f4a86043868ae1c16865f9e",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-browser_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Internet",
+        "id": "mumin-browser",
+        "installed_by_default": true,
+        "name": "Browser",
+        "package": "muminos-mumin-browser",
+        "probe": "/usr/local/bin/mumin-browser",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "27419cf0fb38350e1c31f8e4143ea5e7753657f456579badba39a78665243245",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-calculator_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Utilities",
+        "id": "mumin-calculator",
+        "installed_by_default": true,
+        "name": "Calculator",
+        "package": "muminos-mumin-calculator",
+        "probe": "/usr/local/bin/mumin-calculator",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "288ed81d49769aca27651755432cafd86df22b9aaef10127b05cf292e47af9ff",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-calendar_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Productivity",
+        "id": "mumin-calendar",
+        "installed_by_default": true,
+        "name": "Calendar",
+        "package": "muminos-mumin-calendar",
+        "probe": "/usr/local/bin/mumin-calendar",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "e2f240bb729399986c2c6f3438a1c2285730731a00cf39ba58985597824e4eb8",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-camera_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Creative",
+        "id": "mumin-camera",
+        "installed_by_default": true,
+        "name": "Camera",
+        "package": "muminos-mumin-camera",
+        "probe": "/usr/local/bin/mumin-camera",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "5fca6e2f2fb01258116ca1a03c33fa2ce92b59a72b6ab63ac81fc0687a7fd5cb",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-cast_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Media",
+        "id": "mumin-cast",
+        "installed_by_default": true,
+        "name": "Cast",
+        "package": "muminos-mumin-cast",
+        "probe": "/usr/local/bin/mumin-cast",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "9fb47cb2776fce2bda3b1b87e6e49b2dc634f766d982d51a905b4e3215fba073",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-converter_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Utilities",
+        "id": "mumin-converter",
+        "installed_by_default": true,
+        "name": "Converter",
+        "package": "muminos-mumin-converter",
+        "probe": "/usr/local/bin/mumin-converter",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "baad664d3d38b2d2bf2f38ed872741f7eb8e4ca5c329dcd410ba1f70c9ba87e3",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-disk-utility_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-disk-utility",
+        "installed_by_default": true,
+        "name": "Disk Utility",
+        "package": "muminos-mumin-disk-utility",
+        "probe": "/usr/local/bin/mumin-disk-utility",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "c49fb0443e5d11ed8e7d497e18f27410a5d3dd57fa7859b6342d789791284e8f",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-downloader_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Media",
+        "id": "mumin-downloader",
+        "installed_by_default": true,
+        "name": "Media Downloader",
+        "package": "muminos-mumin-downloader",
+        "probe": "/usr/local/bin/mumin-downloader",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "950d9bf610c75ab893ec80b9faff19cccc1121e11028a99e90b3dcdaed69b441",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-driver-center_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-driver-center",
+        "installed_by_default": true,
+        "name": "Driver Center",
+        "package": "muminos-mumin-driver-center",
+        "probe": "/usr/local/bin/mumin-driver-center",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "f9d399c6cbdb134dcc2d443c456553b03b8458fb0d8d2c8fb7ba36cf1b3c0278",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-email_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Communication",
+        "id": "mumin-email",
+        "installed_by_default": true,
+        "name": "Email",
+        "package": "muminos-mumin-email",
+        "probe": "/usr/local/bin/mumin-email",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "d4893c3185125f084894210a72bd7f62794e9b454932a077f95381772c4876c0",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-finder_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Productivity",
+        "id": "mumin-finder",
+        "installed_by_default": true,
+        "name": "Finder",
+        "package": "muminos-mumin-finder",
+        "probe": "/usr/local/bin/mumin-finder",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "dc3e1c417342d9aff9ebed5d591afa0dadaa6db9dca7633eec0f2d3a928f6598",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-help_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Utilities",
+        "id": "mumin-help",
+        "installed_by_default": true,
+        "name": "Mumin Help",
+        "package": "muminos-mumin-help",
+        "probe": "/usr/local/bin/mumin-help",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "356970dda175306c94b65773dbd799ba35df865a134ab9880b9285cfaa85e6b1",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-media_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Media",
+        "id": "mumin-media",
+        "installed_by_default": true,
+        "name": "Media",
+        "package": "muminos-mumin-media",
+        "probe": "/usr/local/bin/mumin-media",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "f89072b4151b217b18089f2e1498ac3f408b3ca14c45b92b929b865ea5ea417c",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-messages_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Communication",
+        "id": "mumin-messages",
+        "installed_by_default": true,
+        "name": "Messages",
+        "package": "muminos-mumin-messages",
+        "probe": "/usr/local/bin/mumin-messages",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "2f818cc31a5aa395b05bf44bb2d1bcb94ce267e3a8132eed2a2220c9ba694224",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumincode_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Development",
+        "id": "mumincode",
+        "installed_by_default": true,
+        "name": "MuminCode",
+        "package": "muminos-mumincode",
+        "probe": "/usr/local/bin/mumincode",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "bfb6265be62043ab3e5e98abb95c6108d67f0b4a1411f58b3af6ad45df4e168b",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumincode-app-maker_0.3.0.beta1_all.deb"
           }
         },
         "category": "Development",
@@ -29,30 +284,420 @@
         "name": "MuminCode App Maker",
         "package": "muminos-mumincode-app-maker",
         "probe": "/usr/local/bin/mumin-app-maker",
-        "version": "0.1.3~beta1"
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "51e7d3f3a5ad0c73b57b08ec157edff52d51f37ce374687476f561a8468f82ca",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-notes_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Productivity",
+        "id": "mumin-notes",
+        "installed_by_default": true,
+        "name": "Notes",
+        "package": "muminos-mumin-notes",
+        "probe": "/usr/local/bin/mumin-notes",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "6fb41c30f593edb884e4bf4c5b74a78056447968570046e475b94d0f64ab513c",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-settings_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-settings",
+        "installed_by_default": true,
+        "name": "Settings",
+        "package": "muminos-mumin-settings",
+        "probe": "/usr/local/bin/mumin-settings",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "d587b8157fc9cd1ba98ce560c50f384e5315b884907e9ba249a22a0d76cb9cb2",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-setup_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-setup",
+        "installed_by_default": true,
+        "name": "Welcome to Mumin OS",
+        "package": "muminos-mumin-setup",
+        "probe": "/usr/local/bin/mumin-setup",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "c6edddfd5951f81881bb274d1cbd7b08370ac04aace103f4e7e0584e81f41d3e",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-task-manager_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-task-manager",
+        "installed_by_default": true,
+        "name": "Task Manager",
+        "package": "muminos-mumin-task-manager",
+        "probe": "/usr/local/bin/mumin-task-manager",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "f9437dd8d81b63e880312c1554825f8fb842d5c61c116e84bc5e0bc804d13591",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-terminal_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Utilities",
+        "id": "mumin-terminal",
+        "installed_by_default": true,
+        "name": "Terminal",
+        "package": "muminos-mumin-terminal",
+        "probe": "/usr/local/bin/mumin-terminal",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "a1ed889378591c4a5386671d03b027ae30397171bd6059e05829c92511c4b358",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-tv_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Media",
+        "id": "mumin-tv",
+        "installed_by_default": true,
+        "name": "Mumin TV",
+        "package": "muminos-mumin-tv",
+        "probe": "/usr/local/bin/mumin-tv",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "90339c7ba0a28a1f0ef5fbe6643eb022710f5be601b9fb8b60d3c43fd683c011",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-video-call_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Communication",
+        "id": "mumin-video-call",
+        "installed_by_default": true,
+        "name": "Video Call",
+        "package": "muminos-mumin-video-call",
+        "probe": "/usr/local/bin/mumin-video-call",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "584dbe7e03d5018c3453687b7af95d7dcc99bb94f9ee97c421f53194b5ad3b0e",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-video-editor_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "Creative",
+        "id": "mumin-video-editor",
+        "installed_by_default": true,
+        "name": "Mumin Video Editor",
+        "package": "muminos-mumin-video-editor",
+        "probe": "/usr/local/bin/mumin-video-editor",
+        "version": "0.3.0~beta1"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "8b5e070cb0ef93cce06552ea3b86c82bc3c544e47c1a677c03e9c4838c63f3c3",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-mumin-windows-compatibility_0.3.0.beta1_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-windows-compatibility",
+        "installed_by_default": true,
+        "name": "Windows Compatibility",
+        "package": "muminos-mumin-windows-compatibility",
+        "probe": "/usr/local/bin/mumin-package-installer",
+        "version": "0.3.0~beta1"
       }
     ],
     "stable": [
       {
         "artifacts": {
           "amd64": {
-            "sha256": "b2eae6abe069849fbbf7398e5a7debdb13be6f3a78834e9d0a16847d92075c8b",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.2/muminos-mumin-os-apps_0.1.2_all.deb"
+            "sha256": "b09147e90a0d7d86f858063c5177d71be2140c91db35cdf1e6c0cc953be7166d",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-platform_0.2.0_all.deb"
           }
         },
         "category": "System",
-        "id": "mumin-os-apps",
+        "id": "mumin-os-platform",
         "installed_by_default": true,
-        "name": "Mumin OS Apps",
-        "package": "muminos-mumin-os-apps",
-        "probe": "/usr/local/bin/mumin-store",
-        "version": "0.1.2"
+        "name": "Mumin OS Platform",
+        "package": "muminos-platform",
+        "probe": "/usr/local/lib/muminos",
+        "version": "0.2.0"
       },
       {
         "artifacts": {
           "amd64": {
-            "sha256": "a6c58f393627883e8d0ac10685baa8d1535eb38896179ba86fb709d0af9d5fa0",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.1.2/muminos-mumincode-app-maker_0.1.2_all.deb"
+            "sha256": "ccd04c1579a0130942dc196e18ea5f91de323859ac35ff45b708c87af29bbfc8",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-about_0.2.0_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-about",
+        "installed_by_default": true,
+        "name": "About Mumin OS",
+        "package": "muminos-mumin-about",
+        "probe": "/usr/local/bin/mumin-about",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "5a06c98a04a9eaba9922b81650d83953bb1640df01b26b9044d4339e89ceec73",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-store_0.2.0_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-store",
+        "installed_by_default": true,
+        "name": "App Center",
+        "package": "muminos-mumin-store",
+        "probe": "/usr/local/bin/mumin-store",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "ff3500a78afb2a8e88040dc23ce12f77e07d2f5dd4400838d63e73fd2b98f70b",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-browser_0.2.0_all.deb"
+          }
+        },
+        "category": "Internet",
+        "id": "mumin-browser",
+        "installed_by_default": true,
+        "name": "Browser",
+        "package": "muminos-mumin-browser",
+        "probe": "/usr/local/bin/mumin-browser",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "ce49c39f58020afbc5db657c788f286fe4e65ffe831fb912c27e229114120c7f",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-calculator_0.2.0_all.deb"
+          }
+        },
+        "category": "Utilities",
+        "id": "mumin-calculator",
+        "installed_by_default": true,
+        "name": "Calculator",
+        "package": "muminos-mumin-calculator",
+        "probe": "/usr/local/bin/mumin-calculator",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "10cdaab13d5f8b29fd181c2f587222a44b8f7b3fd3f54c99575c81cc35c02215",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-calendar_0.2.0_all.deb"
+          }
+        },
+        "category": "Productivity",
+        "id": "mumin-calendar",
+        "installed_by_default": true,
+        "name": "Calendar",
+        "package": "muminos-mumin-calendar",
+        "probe": "/usr/local/bin/mumin-calendar",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "c74f5a08aaab85bfbb93705cf42e7fcf93216ccafe40774d99fdc5f829112b55",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-camera_0.2.0_all.deb"
+          }
+        },
+        "category": "Creative",
+        "id": "mumin-camera",
+        "installed_by_default": true,
+        "name": "Camera",
+        "package": "muminos-mumin-camera",
+        "probe": "/usr/local/bin/mumin-camera",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "1e985f63b305be15b0e7ea3e658f9988ff25418524c342d4405c7a47f596c3f5",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-cast_0.2.0_all.deb"
+          }
+        },
+        "category": "Media",
+        "id": "mumin-cast",
+        "installed_by_default": true,
+        "name": "Cast",
+        "package": "muminos-mumin-cast",
+        "probe": "/usr/local/bin/mumin-cast",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "a772d14c5b03e8cd8937ece627531e2631513bd2fdd1de515283eeeea5d88205",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-converter_0.2.0_all.deb"
+          }
+        },
+        "category": "Utilities",
+        "id": "mumin-converter",
+        "installed_by_default": true,
+        "name": "Converter",
+        "package": "muminos-mumin-converter",
+        "probe": "/usr/local/bin/mumin-converter",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "e28b1998c13fa497914ff9f6c26a6f70238e2d809b2a66bf0536089a61ff3c18",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-disk-utility_0.2.0_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-disk-utility",
+        "installed_by_default": true,
+        "name": "Disk Utility",
+        "package": "muminos-mumin-disk-utility",
+        "probe": "/usr/local/bin/mumin-disk-utility",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "de3effc6a9a5e01d687a235551d504bf3d1232cd7de105b3c74bc20130d05ce7",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-downloader_0.2.0_all.deb"
+          }
+        },
+        "category": "Media",
+        "id": "mumin-downloader",
+        "installed_by_default": true,
+        "name": "Media Downloader",
+        "package": "muminos-mumin-downloader",
+        "probe": "/usr/local/bin/mumin-downloader",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "058db9436004ab09e5abcf1947ac2166c75de1e64155610fcac2f82cb947c3e9",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-driver-center_0.2.0_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-driver-center",
+        "installed_by_default": true,
+        "name": "Driver Center",
+        "package": "muminos-mumin-driver-center",
+        "probe": "/usr/local/bin/mumin-driver-center",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "ff141bb369ee88b9cb76c884a42dbbd24d73475126621178f7db1bc39b678b39",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-email_0.2.0_all.deb"
+          }
+        },
+        "category": "Communication",
+        "id": "mumin-email",
+        "installed_by_default": true,
+        "name": "Email",
+        "package": "muminos-mumin-email",
+        "probe": "/usr/local/bin/mumin-email",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "7d64fbfffffc0fe9b92e7c8c1ad00f0de7cf3befd144b6b3b1597e34998b3a44",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-finder_0.2.0_all.deb"
+          }
+        },
+        "category": "Productivity",
+        "id": "mumin-finder",
+        "installed_by_default": true,
+        "name": "Finder",
+        "package": "muminos-mumin-finder",
+        "probe": "/usr/local/bin/mumin-finder",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "5ac0a2c393ebe9aff6e35606994055d0f07deea7e92be98201fcb68773d5039b",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-help_0.2.0_all.deb"
+          }
+        },
+        "category": "Utilities",
+        "id": "mumin-help",
+        "installed_by_default": true,
+        "name": "Mumin Help",
+        "package": "muminos-mumin-help",
+        "probe": "/usr/local/bin/mumin-help",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "70ee08ce5a64b257012ccf61b9a6517abb6afff92573442f638bc01a2834acb3",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-media_0.2.0_all.deb"
+          }
+        },
+        "category": "Media",
+        "id": "mumin-media",
+        "installed_by_default": true,
+        "name": "Media",
+        "package": "muminos-mumin-media",
+        "probe": "/usr/local/bin/mumin-media",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "5807b59510ad2b174894ea5aa230e607336452752da9c8c0f3e8ee1df16e19fc",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-messages_0.2.0_all.deb"
+          }
+        },
+        "category": "Communication",
+        "id": "mumin-messages",
+        "installed_by_default": true,
+        "name": "Messages",
+        "package": "muminos-mumin-messages",
+        "probe": "/usr/local/bin/mumin-messages",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "a87e8a9d7a76cdbb80b689b82c63ea3afabbbe908b3ef7143e211fcbcabbcad3",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumincode_0.2.0_all.deb"
+          }
+        },
+        "category": "Development",
+        "id": "mumincode",
+        "installed_by_default": true,
+        "name": "MuminCode",
+        "package": "muminos-mumincode",
+        "probe": "/usr/local/bin/mumincode",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "4637d54e060a8f9af6ae738d94f5cf86a81c46adb0a1a080e79e6ff2446045b1",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumincode-app-maker_0.2.0_all.deb"
           }
         },
         "category": "Development",
@@ -61,9 +706,145 @@
         "name": "MuminCode App Maker",
         "package": "muminos-mumincode-app-maker",
         "probe": "/usr/local/bin/mumin-app-maker",
-        "version": "0.1.2"
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "c5e5f2a194e591a6efef27e31aae5817753c898ff9a64543cd04d6e89c3107ba",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-notes_0.2.0_all.deb"
+          }
+        },
+        "category": "Productivity",
+        "id": "mumin-notes",
+        "installed_by_default": true,
+        "name": "Notes",
+        "package": "muminos-mumin-notes",
+        "probe": "/usr/local/bin/mumin-notes",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "55891a48660ad15a0b06c8df6e24effebc3a268bb17347d4c35da2702b46a361",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-settings_0.2.0_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-settings",
+        "installed_by_default": true,
+        "name": "Settings",
+        "package": "muminos-mumin-settings",
+        "probe": "/usr/local/bin/mumin-settings",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "89b62a5cc5d1743f2365f326894cdd51b228c445456a3dccfb544fb908fbe5d0",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-setup_0.2.0_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-setup",
+        "installed_by_default": true,
+        "name": "Welcome to Mumin OS",
+        "package": "muminos-mumin-setup",
+        "probe": "/usr/local/bin/mumin-setup",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "664260e5a74054cbadb494e7c3e1edbfe8831ab15362fcba03c8d4ece55afbae",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-task-manager_0.2.0_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-task-manager",
+        "installed_by_default": true,
+        "name": "Task Manager",
+        "package": "muminos-mumin-task-manager",
+        "probe": "/usr/local/bin/mumin-task-manager",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "622d7366d34c5efecc8ffa000ea1731f21a53335b258443ad542c85f38079769",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-terminal_0.2.0_all.deb"
+          }
+        },
+        "category": "Utilities",
+        "id": "mumin-terminal",
+        "installed_by_default": true,
+        "name": "Terminal",
+        "package": "muminos-mumin-terminal",
+        "probe": "/usr/local/bin/mumin-terminal",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "2ab49ec2a13a3235ce8f962263a155ef1a12b7f593104381ac8900d4774991b4",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-tv_0.2.0_all.deb"
+          }
+        },
+        "category": "Media",
+        "id": "mumin-tv",
+        "installed_by_default": true,
+        "name": "Mumin TV",
+        "package": "muminos-mumin-tv",
+        "probe": "/usr/local/bin/mumin-tv",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "0f7d5bad88551a084c89dd1fce6b3f05af0e3db0a943cb7b7bd108f5ea1803d4",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-video-call_0.2.0_all.deb"
+          }
+        },
+        "category": "Communication",
+        "id": "mumin-video-call",
+        "installed_by_default": true,
+        "name": "Video Call",
+        "package": "muminos-mumin-video-call",
+        "probe": "/usr/local/bin/mumin-video-call",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "a1835cc5450260f03bc208a7e4653985b9f2e92da2eb5cf87b919329ec8ae524",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-video-editor_0.2.0_all.deb"
+          }
+        },
+        "category": "Creative",
+        "id": "mumin-video-editor",
+        "installed_by_default": true,
+        "name": "Mumin Video Editor",
+        "package": "muminos-mumin-video-editor",
+        "probe": "/usr/local/bin/mumin-video-editor",
+        "version": "0.2.0"
+      },
+      {
+        "artifacts": {
+          "amd64": {
+            "sha256": "7e07c3ae51d07effb666394c49a400b6157e90b090155dcab9f7ba3ebbd164e7",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-mumin-windows-compatibility_0.2.0_all.deb"
+          }
+        },
+        "category": "System",
+        "id": "mumin-windows-compatibility",
+        "installed_by_default": true,
+        "name": "Windows Compatibility",
+        "package": "muminos-mumin-windows-compatibility",
+        "probe": "/usr/local/bin/mumin-package-installer",
+        "version": "0.2.0"
       }
     ]
   },
+  "packaging": "individual-v1",
   "schema": 1
 }
