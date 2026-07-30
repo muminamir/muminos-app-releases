@@ -4,8 +4,8 @@
       {
         "artifacts": {
           "amd64": {
-            "sha256": "37c030e115e9a6d5a7e33193c7686b879378dc90e7326133a03ec22db7d72aa8",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.3.0-beta1/muminos-platform_0.3.0.beta1_all.deb"
+            "sha256": "637bfb8100c725c36d0c90938599775bf80d4ea99ba81eadf680011be94a5d32",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-platform-0.3.0-beta2/muminos-platform_0.3.0.beta2_all.deb"
           }
         },
         "category": "System",
@@ -14,7 +14,7 @@
         "name": "Mumin OS Platform",
         "package": "muminos-platform",
         "probe": "/usr/local/lib/muminos",
-        "version": "0.3.0~beta1"
+        "version": "0.3.0~beta2"
       },
       {
         "artifacts": {
@@ -426,8 +426,8 @@
       {
         "artifacts": {
           "amd64": {
-            "sha256": "b09147e90a0d7d86f858063c5177d71be2140c91db35cdf1e6c0cc953be7166d",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-0.2.0/muminos-platform_0.2.0_all.deb"
+            "sha256": "42f20d87ad483c0578315b57120882974dbf13525d3d1322b36f00be81d3ed94",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-platform-0.2.1/muminos-platform_0.2.1_all.deb"
           }
         },
         "category": "System",
@@ -436,7 +436,7 @@
         "name": "Mumin OS Platform",
         "package": "muminos-platform",
         "probe": "/usr/local/lib/muminos",
-        "version": "0.2.0"
+        "version": "0.2.1"
       },
       {
         "artifacts": {
