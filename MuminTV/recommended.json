@@ -1,16 +1,16 @@
 {
   "recommended": [
     {
-      "url": "https://www.cineby.app/",
-      "android_url": "https://www.cineby.app/",
-      "android_tv_url": "https://www.cineby.app/",
-      "windows_url": "https://www.cineby.app/"
+      "url": "https://www.cineplay.to/",
+      "android_url": "https://www.cineplay.to/",
+      "android_tv_url": "https://www.cineplay.to/",
+      "windows_url": "https://www.cineplay.to/"
     },
     {
-      "url": "https://nettmovies.com/",
-      "android_url": "https://nettmovies.com/",
-      "android_tv_url": "https://nettmovies.com/",
-      "windows_url": "https://nettmovies.com/"
+      "url": "https://cineby.at/",
+      "android_url": "https://cineby.at/",
+      "android_tv_url": "https://cineby.at/",
+      "windows_url": "https://cineby.at/"
     }
   ]
 }
