@@ -786,8 +786,8 @@
       {
         "artifacts": {
           "amd64": {
-            "sha256": "124469afe219b6477055282ce7d651e6a8f078227b7b6e08db6a22c933f5b6b1",
-            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-mumin-tv-1.0.2/muminos-mumin-tv_1.0.2_amd64.deb"
+            "sha256": "8cb17e5e01ceeb82b132b7011bc78ac3b24f5fd5482a366ebbbe3f4600d30e68",
+            "url": "https://github.com/muminamir/muminos-app-releases/releases/download/apps-mumin-tv-1.0.3/muminos-mumin-tv_1.0.3_amd64.deb"
           }
         },
         "category": "Media",
@@ -796,7 +796,7 @@
         "name": "Mumin TV",
         "package": "muminos-mumin-tv",
         "probe": "/usr/local/bin/mumin-tv",
-        "version": "1.0.2"
+        "version": "1.0.3"
       },
       {
         "artifacts": {
