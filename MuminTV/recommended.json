@@ -1,16 +1,16 @@
 {
   "recommended": [
     {
-      "url": "https://www.cineplay.to/",
-      "android_url": "https://www.cineplay.to/",
-      "android_tv_url": "https://www.cineplay.to/",
-      "windows_url": "https://www.cineplay.to/"
+      "url": "https://www.movy.bz/",
+      "android_url": "https://www.movy.bz/",
+      "android_tv_url": "https://www.movy.bz/",
+      "windows_url": "https://www.movy.bz/"
     },
     {
-      "url": "https://cineby.at/",
-      "android_url": "https://cineby.at/",
-      "android_tv_url": "https://cineby.at/",
-      "windows_url": "https://cineby.at/"
+      "url": "https://bingebox.ac/",
+      "android_url": "https://bingebox.ac/",
+      "android_tv_url": "https://bingebox.ac/",
+      "windows_url": "https://bingebox.ac/"
     }
   ]
 }
